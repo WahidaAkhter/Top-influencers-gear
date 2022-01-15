@@ -186,3 +186,17 @@ h3{
     margin-left: 170px;
     margin-right: 170px;
 }
+/*-------------------- 
+     footer part
+----------------------  */
+.footer-part{
+    background-color: rgb(12, 12, 59);
+    color: white;
+    height: 170px;
+}
+.footer-style{
+    margin-left:600px ;
+}
+.footer-padding{
+    padding-top: 30px;
+}
