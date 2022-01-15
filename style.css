@@ -193,12 +193,13 @@ h3{
     background-color: rgb(12, 12, 59);
     color: white;
     height: 170px;
+    width: 100%;
 }
 .footer-style{
-    margin-left:600px ;
-}
-.footer-padding{
-    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 .insta-icon{
     padding-right: 8px;
@@ -208,4 +209,93 @@ h3{
 }
 .twitter-icon{
     padding-right: 8px;
+}
+/* media-queries  */
+/* mobile-devices  */
+@media only screen and (max-width:688px) {
+    .heading-part{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        flex-direction: column;
+    }
+    nav li{
+        flex-direction: column;
+    }
+    .journey-part{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .top-div{
+        margin: 0;
+        padding: 0;
+    }
+    .main-camera{
+        margin: 0;
+        padding: 0;
+    }
+    .all-colllections-section{
+        margin: 0;
+        padding: 0;
+    }
+    .collection-head-tag{
+        margin: 0;
+        padding: 0;
+    }
+    .collections{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0;
+        padding: 0%;
+    }
+    .single-collection{
+        margin: 0;
+        padding: 0;
+    }
+    .global-report{
+        margin: 0;
+        padding: 0;
+    }
+    .influencer-report{
+        margin: 0;
+        padding: 0;
+    }
+    .influencer-report img{
+        height: 400px;
+        width:350px;
+        margin: 0;
+        padding: 0;
+    }
+    .instafamous-text{
+        margin: 0;
+        padding: 0;
+    }
+    .instafamous{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .campaign{
+        margin: 0;
+        padding: 0;
+    }
+    .reporting{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .footer-part{
+        height: 250px;
+    }
+    
+   
 }
