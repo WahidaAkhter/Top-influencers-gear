@@ -156,7 +156,9 @@ h3{
     margin-left: 400px;
 
 }
-/* influencer products  */
+/*--------------------- 
+instafamous products 
+----------------------- */
 .instafamous-text{
     padding-left: 450px;
 }
@@ -239,11 +241,11 @@ h3{
     }
     .top-div{
         margin: 0;
-        padding: 0;
+        padding:10px;
     }
     .main-camera{
         margin: 0;
-        padding: 0;
+        padding:0;
     }
     .all-colllections-section{
         margin: 0;
@@ -256,7 +258,7 @@ h3{
     .collections{
         grid-template-columns: repeat(1,1fr);
         margin: 0;
-        padding: 0%;
+        padding: 25px;;
     }
     .single-collection{
         margin: 0;
@@ -295,18 +297,15 @@ h3{
     .instafamous{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         margin: 0;
-        padding: 0;
+        padding: 60px;
     }
     .campaign{
         margin: 0;
         padding: 0;
     }
     .reporting{
-        margin: 0;
-        padding: 0;
-    }
-    .campaign{
         margin: 0;
         padding: 0;
     }
