@@ -194,6 +194,7 @@ h3{
     color: white;
     height: 170px;
     width: 100%;
+    margin-top: 10px;
 }
 .footer-style{
     display: flex;
@@ -222,6 +223,10 @@ h3{
     }
     header{
         flex-direction: column;
+    }
+    nav ul li{
+        margin: 0;
+        padding: 0;
     }
     nav li{
         flex-direction: column;
@@ -257,7 +262,15 @@ h3{
         margin: 0;
         padding: 0;
     }
+    .seemore-tag{
+        padding: 0;
+        margin: 0;
+    }
     .global-report{
+        margin: 0;
+        padding: 0;
+    }
+    .influencer{
         margin: 0;
         padding: 0;
     }
@@ -268,6 +281,10 @@ h3{
     .influencer-report img{
         height: 400px;
         width:350px;
+        margin: 0;
+        padding: 0;
+    }
+    .prebook-tag{
         margin: 0;
         padding: 0;
     }
@@ -289,7 +306,7 @@ h3{
         margin: 0;
         padding: 0;
     }
-    body{
+    .campaign{
         margin: 0;
         padding: 0;
     }
